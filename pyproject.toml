@@ -18,5 +18,5 @@ dependencies = [
     "tqdm>=4.66.4",
 ]
 
-# [tool.hatch.build.targets.wheel]
-# packages = ["aws_wrapper"]
+[tool.hatch.build.targets.wheel]
+packages = ["perdcomp_crawler"]

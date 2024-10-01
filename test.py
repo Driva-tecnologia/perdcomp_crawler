@@ -2,7 +2,7 @@ from dotenv import load_dotenv;load_dotenv()
 import os
 from pandas_wrapper.pg import PandasPG
 import pandas as pd
-from perdcomp import Perdcomp
+from perdcomp_crawler.perdcomp import Perdcomp
 
 PG_HOST = os.getenv("PG_HOST")
 PG_USER = os.getenv("PG_USER")
